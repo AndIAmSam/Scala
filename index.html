@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Scala. Musical Education</title>
+    <link rel="icon" href="assets/images/logo.svg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+<!--
+
+Breezed Template
+
+https://templatemo.com/tm-543-breezed
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    <style>
+        .item {
+            position: relative;
+        }
+
+        .hover-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.9s ease;
+            font-size: 35px;
+        }
+
+        .item:hover .hover-text {
+            opacity: 1;
+        }
+
+        .item-descriptions .item {
+            position: relative; /* Que las descripciones se posicionen relativas al item */
+        }
+
+        .item-descriptions .description {
+            display: none;     /* Oculta las descripciones por defecto */
+            position: absolute; /* Posicionar las descripciones de forma absoluta */
+            bottom: 0;         /* Posicionada en la parte inferior del item */ 
+            left: 0;           /* Ocupando todo el ancho del item */
+            width: 100%;       
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+            color: white;
+            text-align: center;
+        }
+
+        .description a {
+            color: rgb(0, 161, 145);
+            text-decoration: underline;
+        }
+
+    </style>
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <img src="assets/images/logo.svg" alt="Scala" width="90px" height="90px">
+                        <a href="index.html" class="logo">
+                            Scala
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+                            <li class="scroll-to-section"><a href="#about">Acerca de nosotros</a></li>
+                            <li class="scroll-to-section"><a href="#projects">Proyectos</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contáctanos</a></li> 
+                            <li class="submenu">
+                                <a href="javascript:;">Drop Down</a>
+                                <ul>
+                                    <li><a href="">Extras</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </li>
+                            <!-- 
+                                <div class="search-icon">
+                                    <a href="#search"><i class="fa fa-search"></i></a>
+                                </div>
+
+                             -->
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    <!-- ***** Search Area ***** -->
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form id="contact" action="#" method="get">
+            <fieldset>
+                <input type="search" name="q" placeholder="SEARCH KEYWORD(s)" aria-label="Search through site content">
+            </fieldset>
+            <fieldset>
+                <button type="submit" class="main-button">Search</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-01.jpg" alt="">
+                <div class="text-content">
+                  <h3>Scala es Armonía</h3>
+                  <h5>En Scala, la armonía es más que música; es el hogar donde cada nota encuentra su lugar, creando una sinfonía que resuena con la esencia misma de nuestro arte.</h5>
+                  <a href="#" class="main-stroked-button">Conoce más</a>
+                  <a href="#" class="main-filled-button">Contáctanos ya</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-02.jpg" alt="">
+                <div class="text-content">
+                  <h3>Scala es Melodía</h3>
+                  <h5>En Scala, transformamos la melodía en una experiencia emocional. Cada nota es una expresión de sentimiento, tejiendo historias sonoras que perduran en el corazón.</h5>
+                  <a href="#" class="main-stroked-button">Conoce más</a>
+                  <a href="#" class="main-filled-button">Contáctanos ya</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="assets/images/slide-03.jpg" alt="">
+                <div class="text-content">
+                  <h3>Scala es Ritmo</h3>
+                  <h5>En Scala, el ritmo es más que un compás; es el latido del alma creativa. Cada pulsación es un recordatorio de que la música, como la vida, encuentra su belleza en la intersección entre el orden y la espontaneidad.</h5>
+                  <a href="#" class="main-stroked-button">Conoce más</a>
+                  <a href="#" class="main-filled-button">Contáctanos ya</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+        </div>
+    </div>
+    <div class="scroll-down scroll-to-section"><a href="#projects"><i class="fa fa-arrow-down"></i></a></div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Scala</h6>
+                            <h2>Melodías que Elevan, Enseñanzas que Resuenan</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/music-icon.png" alt="">
+                                    <h4>Conectar</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/music-icon.png" alt="">
+                                    <h4>Innovar</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/music-icon.png" alt="">
+                                    <h4>Crear</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="assets/images/music-icon.png" alt="">
+                                    <h4>Transmitir</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="#projects" class="main-button-icon">
+                                    Conoce más<i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>En el corazón de Scala, nos encontramos como una comunidad vibrante de amantes de la música y educadores apasionados. 
+                        <br><br>Aquí, la enseñanza va más allá de las partituras; es una exploración profunda de la creatividad, la expresión y el amor por el arte sonoro. Nuestra misión es nutrir no solo habilidades musicales excepcionales, sino también almas melódicas que encuentran significado y emoción en cada compás.
+                      <br><br>Nuestra misión es nutrir no solo habilidades musicales excepcionales, sino también almas melódicas que encuentran significado y emoción en cada compás.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/correct.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Excelencia artística</h4>
+                            <p>Perseguimos la excelencia artística como un valor fundamental. Fomentamos estándares elevados y la búsqueda constante de la mejora, creando una cultura donde la calidad es la norma.</p>
+                            <a href="#" class="text-button-icon">
+                                Conoce más <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/community.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Comunidad</h4>
+                            <p>Valoramos la formación de una comunidad musical vibrante en Scala. Creemos en el poder de aprender y crecer juntos, compartiendo experiencias, conocimientos y celebrando los logros musicales de cada miembro.</p>
+                            <a href="#" class="text-button-icon">
+                                Conoce más <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/creativity.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Creatividad</h4>
+                            <p>La adaptabilidad y la creatividad son esenciales en Scala. Nos adaptamos a las nuevas tendencias musicales y pedagogías, fomentando la creatividad tanto en la interpretación como en la enseñanza, para preparar a nuestros estudiantes para los desafíos musicales contemporáneos.</p>
+                            <a href="#" class="text-button-icon">
+                                Conoce más <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-heading">
+                        <h6>Suscríbete a nuestro boletín</h6>
+                        <h2>No pierdas ninguna oportunidad</h2>
+                    </div>
+                    <div class="subscribe-content">
+                        <p>Recibe correos de nuestra parte con novedades, descuentos o noticias importantes sobre Scala</p>
+                        <div class="subscribe-form">
+                            <form id="subscribe-now" action="" method="get">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                      <fieldset>
+                                        <input name="email" type="text" id="email" placeholder="Ingreda tu correo electrónico..." required="">
+                                      </fieldset>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <fieldset>
+                                        <button type="submit" id="form-submit" class="main-button">Suscribirse</button>
+                                      </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <!-- ***** Projects Area Starts ***** -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="section-heading">
+                    <h6>Proyectos</h6>
+                    <h2>Nuestra oferta</h2>
+                </div>
+                <div class="filters">
+                    <ul>
+                        <li class="active" data-filter="*">Todo</li>
+                        <li data-filter=".cuerdas">Cuerdas</li>
+                        <li data-filter=".percusion">Percusión</li>
+                        <li data-filter=".piano">Piano</li>
+                        <li data-filter=".canto">Canto</li>
+                        <li data-filter=".ensamble">Ensamble</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="filters-content item-descriptions">
+                    <div class="row grid">
+                        <script>
+                            $(document).ready(function() {
+                                $('.item').click(function() {
+                                    // Mostrar/ocultar la descripción del elemento al que se le hizo click con animación
+                                    $(this).find('.description').slideToggle({
+                                        duration: 700 // Duración de la animación en milisegundos (aumentada a 800)
+                                    });
+                                });
+                            });
+                        </script>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all cuerdas">
+                          <div class="item">
+                            <a href="assets/images/guitar.jpg" data-lightbox="image-1" data-title="Guitarra"><img src="assets/images/guitar.jpg" alt=""></a>
+                            <div class="hover-text">Guitarra Eléctrica</div>
+                            <div class="description" style="display: none;">Fusiona las notas <a href="index.html">Conoce más</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all cuerdas">
+                            <div class="item">
+                              <a href="assets/images/acoustic-guitar.jpg" data-lightbox="image-1" data-title="Guitarra"><img src="assets/images/acoustic-guitar.jpg" alt=""></a>
+                              <div class="hover-text">Guitarra Acústica</div>
+                              <div class="description" style="display: none;">Examina las cuerdas <a href="index.html">Conoce más</a></div>
+                            </div>
+                          </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all piano">
+                          <div class="item">
+                            <a href="assets/images/piano.jpg" data-lightbox="image-1" data-title="Piano"><img src="assets/images/piano.jpg" alt=""></a>
+                            <div class="hover-text">Piano</div>
+                            <div class="description" style="display: none;">Expresa con elegancia <a href="index.html">Conoce más</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all percusion">
+                          <div class="item">
+                            <a href="assets/images/drums.jpg" data-lightbox="image-1" data-title="Batería"><img src="assets/images/drums.jpg" alt=""></a>
+                            <div class="hover-text">Batería</div>
+                            <div class="description" style="display: none;">Descubre tu ritmo <a href="index.html">Conoce más</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all canto">
+                          <div class="item">
+                            <a href="assets/images/microphone.jpg" data-lightbox="image-1" data-title="Canto"><img src="assets/images/microphone.jpg" alt=""></a>
+                            <div class="hover-text">Canto</div>
+                            <div class="description" style="display: none;">Explora tu voz <a href="index.html">Conoce más</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all cuerdas">
+                          <div class="item">
+                            <a href="assets/images/bass.jpg" data-lightbox="image-1" data-title="Bajo"><img src="assets/images/bass.jpg" alt=""></a>
+                            <div class="hover-text">Bajo</div>
+                            <div class="description" style="display: none;">Sumérgete en las profundidades sonoras <a href="index.html">Conoce más</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all ensamble">
+                          <div class="item">
+                            <a href="assets/images/band.jpg" data-lightbox="image-1" data-title="Ensamble"><img src="assets/images/band.jpg" alt=""></a>
+                            <div class="hover-text">Ensamble</div>
+                            <div class="description" style="display: none;">Conecta talentos <a href="index.html">Conoce más</a></div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all ensamble">
+                            <div class="item">
+                              <a href="assets/images/composser.jpg" data-lightbox="image-1" data-title="Composición"><img src="assets/images/composser.jpg" alt=""></a>
+                              <div class="hover-text">Composición</div>
+                              <div class="description" style="display: none;">Plasma emociones <a href="index.html">Conoce más</a></div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Projects Area Ends ***** -->
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h6>Equipo / Casos de Éxito</h6>
+                        <h2>Extra</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.01 White Cheese</h4>
+                            <span>Digital Marketer</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.02 Snow Mary</h4>
+                            <span>Site Analyst</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.03 Johnny Egg</h4>
+                            <span>Digital Influencer</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.04 Catherine Phyu</h4>
+                            <span>Co Founder</span>
+                        </div>
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.05 Shao Lynn</h4>
+                            <span>Chief Marketing</span>
+                        </div>
+                        
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.06 Emma Honey</h4>
+                            <span>Digital Influencer</span>
+                        </div>
+                        
+                        <div class="item author-item">
+                            <div class="member-thumb">
+                                <img src="assets/images/person.jpg" alt="">
+                                <div class="hover-effect">
+                                    <div class="hover-content">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>.07 Oliva Sofie</h4>
+                            <span>Website Analyst</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contáctanos</h6>
+                            <h2>Siéntete libre de comunicarte con nosotros, sin presiones</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="assets/images/contact-info-01.png" alt="">12 3456 7891</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">scala@scala.com</li>
+                            <li><img src="assets/images/contact-info-03.png" alt="">www.scala.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Tu nombre *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Tu teléofono " required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Tu correo electrónico *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Mensaje " required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Envíanos un mensaje ahora <i class="fa fa-arrow-right"></i></button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <div class="left-text-content">
+                        <p>Copyright &copy; 2024 Scala Co., Ltd. 
+                        
+                        - Design: <a rel="nofollow noopener" href="https://templatemo.com">By Sam</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><p>Síguenos</p></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-instagram"></i></a></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>
